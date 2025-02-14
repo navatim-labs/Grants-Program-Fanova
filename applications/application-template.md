@@ -1,33 +1,48 @@
-# Name of your Project
+# Zerem
 
 > [!NOTE]
 > This document will be part of the terms and conditions of your agreement and, therefore, needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g., `![](image.png)` instead of `<img>`).
 >
 > See the [Grants Program Process](https://grants.web3.foundation/docs/process) on how to submit a proposal.
 
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** Zerem
 - **Payment Details:**
-  - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
-  - **Payment**: In case of payment in **USDC**, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). In the case of **fiat** payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and list here the date and time of your email (e.g. Fiat 24.12.1971, 11:59). 
-- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 1, 2 or 3
+  - **DOT**: 
+  
+- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 3
 
 > [!IMPORTANT]
 > *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
+A social layer for your browsing data, Zerem enables users to securely track their browsing data and share a curated feed to existing social platforms for their subscribers, allowing individual to benefit from their digital data and users to follow what their favorite creators spend their time on the internet.
 
 ### Overview
 
-Please provide the following:
+**What is the aim for Zerem ?**
+- As currently we live in digital space, we have interesting people do interesting things on internet i.e what they are browsing, watching, learning and we want to get to know what they are up to.
 
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+- Benefiting from the data you are generating, as we browse we generate data that companies sell, Zerem turns your data to curated post that user can subscribe and engage
+- leverage existing social platforms such as X, farcaster etc. As the browsing data is converted into a structured post and encrypted and posted on existing social platforms on user's account. Only subscribers having the access can view the feed, hence the user benefits from the data generated from browsing activities.
+
+**How it works ?**
+
+Zerem consist of a browser extension that tracks user internet activities excluding private details i.e passwords and a provable claim that it only tracks activities of which the user allows to. This extension collects data and curate social media post by which subscribers will be able to view their subscribed individual daily digital activies.
+
+The consumer side of the application is the extension will be also used to view the social media post as all the post posted by the extension will be encrypted and gibberish with post hook. The extension will decrypt the post only to subscribers. By this we ensure that we leverage existing social platform to access vast userbase and providing the experience only web3 can provde.
+ 
+All user activities will be stored locally and to IPFS per user request and all the keys to encrypt and decrypt post will be shared peer to peer and stored locally. All consensus related data such as subscriptions records, proof of recording non sensitive data etc will be recorded and managed onchain.
+
+**Why ?**
+
+In digital space we consume contents from different individuals who we admire, look upto and learn from or even hate. But there is one generated content that is really interesting which is our daily internet activities, what we learn, search, prompt, browse, watch etc that may interest people who follow you. For instance to seeing what Gavin Wood researches on, learn from, his prompts, this will interested to people who want to know and even gain access to his other part of life. But all with his consent but everything is automated on collecting the information and sharing. Essentially is "tracking to earn".
+
+And also we generate billions of data on the internet but we benefit less to none from them and as there are many platforms to upload and sell your data, that proves to be a tough proposition as many users do not even know what and how useful their data is, Zerem turns your data to a consentual post to which you get paid to subscribers to see your interesting internet activities.
+
+And Zerem aims to actually being used that is why we are following where the users are, we are leveraging the existing big social platform to our platform to make sure we get existing users and newer users.
+
+Zerem is a product whereby it showcases what web3 products should be as having new functionalities that make sense only in web3 but can be used by masses on the internet. And this is the reason why building on Polkadot make sense as we intend Zerem to leverage scaling per its needs using coretime and consensus related data to be managed by high security interopable soverign system.
 
 ### Project Details
 
@@ -50,7 +65,7 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems i t tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
